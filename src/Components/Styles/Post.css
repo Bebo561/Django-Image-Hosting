@@ -1,0 +1,124 @@
+#PostDiv{
+    display: flex;
+    border: 1px solid black;
+    height: 70vh;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 5%;
+}
+#PostTitle{
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-top: 0;
+    position: relative;
+}
+#ImageInput{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+input[type=file]::file-selector-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#ImageName{
+    width: 40%;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 4vh;
+    margin-left: 31%;
+    text-align: center;
+    border-radius: 8px;
+}
+#PostT1{
+    margin-top: 4vh;
+    font-size: 20px;
+    margin-right: 27vh;
+    font-weight: 500;
+}
+#PostT2{
+    font-size: 20px;
+    margin-top: 4vh;
+    font-weight: 500;
+    margin-right: 3vh;
+}
+#ImageName:focus{
+    background-color: #0001;
+    outline-color: 10px blue;
+}
+#PostForm{
+    display: flex;
+    flex-direction: column;
+}
+#PostButton{
+    width: 15vh;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    margin-left: 43%;
+    margin-top: 4vh;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+#PostButton:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+#PostHome{
+    position: relative;
+    float: left;
+    cursor: pointer;
+    margin-right: 90vh;
+    font-size: 30px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+}
+#PostHome:hover{
+    color: blue;
+    cursor: pointer;
+}
+@media (max-width: 480px) {
+    #PostTitle{
+        font-size: 1.5rem;
+    }
+    #PostT1{
+        margin-right: 7vh;
+        font-size: 13px;
+    }
+    #ImageName{
+        width: 50%;
+        margin-left: 9vh;
+    }
+    #PostT2{
+        margin-left: 10.01vh;
+        margin-right: 0vh;
+        font-size: 13px;
+        margin-top: 4vh;
+    }
+    #PostDiv{
+        width: 85vw;
+    }
+    #PostForm{
+        
+        background-color: white;
+    }
+    #PostButton{
+        margin-left: 25vw;
+    }
+    #ImageInput{
+        position: relative;
+        margin-left: 35%;
+        margin-top: 2%;
+    }
+  }

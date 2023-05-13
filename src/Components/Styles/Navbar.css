@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+#Header{
+    background-color: #100C08;
+    width: 100%;
+    height: 12vh;
+    color: white;
+    overflow: hidden;
+    font-weight: Bold;
+}
+#Hosterr{
+    padding-left: 2vh;
+    font-size: 5vh;
+    font-family: 'Merriweather', serif;
+    width: 5vh;
+    padding-bottom: 5vh;
+    display: inline-block;
+}
+#LoginRedirect{
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 4vh;
+    margin-right: 1vh;
+    padding-top: 1vh;
+    text-decoration: none;
+    text-align: center;  
+    height: 5vh;
+    width: 10vh;
+    border-radius: 8px;
+}
+#LoginRedirect:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+}
+#CreatePost{
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+    background-color: blue;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 4vh;
+    margin-right: 2vh;
+    padding-top: .5vh;
+    text-decoration: none;
+    text-align: center;  
+    height: 5vh;
+    width: 20vh;
+    border-radius: 8px;
+}
+#CreatePost:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+}
+#LogOut{
+    float: right;
+    margin-top: 4vh;
+    margin-right: 1vh;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: 2vh;
+    border: black;
+    height: 5vh;
+    width: 10vh;
+    text-align: center;
+}
+#LogOut:hover{
+    color: white;
+    background-color: blue;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+@media (max-width: 480px) {
+    #Hosterr{
+        font-size: 1.7rem;
+        margin-top: 4vh; 
+    }
+    #CreatePost{
+        height: 5vh;
+        width: 15vh;
+    }
+    #LogOut{
+        height: 5vh;
+        width: 8vh;
+    }
+}

@@ -1,0 +1,210 @@
+#detail-Img{
+    height: 60vh;
+    width: 35vw;
+    aspect-ratio: 16/9;
+    margin-top: 7%;
+    transform: translateY(-12vh);
+}
+#detail-information{
+    background-color: white;
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 1vh;
+    height: 50%;
+    width: 25%;
+    top: 23.5%;
+}
+#detail-bg{
+    height: 100%;
+    min-height: 89vh;
+    top: 12%;
+    width: 100%; 
+    background-color: #121212;
+}
+#detail-Download{
+    width: 15%;
+    height: 10%;
+    margin-top: 13%;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 5%;
+}
+#detail-Delete{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 75%;
+    height: 7vh;
+    width: 10%;
+    transform: translateY(-35vh);
+    positon: absolute;
+    color: black;
+}
+#detail-Delete:hover{
+    transform: scale(1.1) translateY(-32vh);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#detail-Download:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+#detail-Loading{
+    color: white;
+    font-size: 2rem;
+}
+#detail-Link{
+    position: absolute;
+    top: 11%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 1vh;
+    color: blue;
+}
+#detail-Link:hover{
+    color: white;
+}
+#detail-Link:active{
+    color: white;
+}
+#Bruh{
+    color: black;
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+}
+#detail-Title{
+    font-size: 4rem;
+    text-align: center;
+    margin:auto;
+    color: white;
+    font-weight: 500;
+}
+#detail-Comments{
+    height: 100%;
+    width: 100%;
+}
+#detail-Comments-Header{
+    color: white;
+}
+#write-Comment{
+    background-color: white;
+    width: 40%;
+    height: 30vh;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+#write-Comment-Label{
+    font-size: 1.5rem;
+}
+#input-Comment{
+    height: 60%;
+    border: 1px solid-black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    width: 70%;
+}
+#comment-Submit{
+    height: 10%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 15%;
+    float: right;
+    margin-right: 5vw;
+}
+#comment-Submit:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s all;
+}
+#comment-Holder{
+    width: 40%;
+    height: 25vh;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 8px;
+}
+#comment-Poster{
+    font-size: 2rem;
+    float: left;
+    margin-left: 1vh;
+}
+#comment-Details{
+    border: solid black 1px;
+    position: absolute;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 500;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10vh;
+    min-height: 8vh;
+}
+@media (max-width: 480px){
+    #detail-bg{
+        height: 100%;
+    }
+    #detail-Link{
+        font-size: 1.2rem;
+    }
+    #detail-Img{
+        height: 60vh;
+        width: 70vw;
+        margin-top: 12vh;
+    }
+    #detail-information{
+        width: 50vw;
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 85vh;
+        height: 35vh;
+        font-size: 0.8rem;
+    }
+    #detail-Download{
+        margin-top: 63vh;
+        margin-left: -55%;
+        height: 7vh;
+        position: absolute;
+        width: 40%;
+    }
+    #detail-Delete{
+        margin-top: 0vh;
+        width: 30%;
+        height: 5%;
+        transform: translateX(-40vw);
+    }
+    #detail-Delete:hover{
+        transform: translateX(-40vw) translateY(0vh);
+    }
+    #detail-Comments{
+        margin-top: 60vh;
+    }
+    #write-Comment{
+        width: 80vw;
+    }
+    #comment-Holder{
+        width: 80vw;
+        min-height: 30vh;
+        height: 100%;
+        margin-top: 2vh;
+    }
+    #comment-Details{
+        font-size: 1rem;
+        font-weight: 400;
+        width: 60vw;
+        padding: 1vh;
+        height: 10vh;
+    }
+}
